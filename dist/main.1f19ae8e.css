@@ -48,8 +48,8 @@ input[type=submit] {
 
 .box{
     background: lightblue;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     font-size: 1.2rem;
     margin: 10px;
     overflow-wrap: break-word;
@@ -66,6 +66,29 @@ input[type=submit] {
     left: 60px;
     font-size: 20px;
     border: none;
+}
+.navbar {
+    display: flex;
+    background-color: darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 0;
+}
+.navbar a {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+.navbar a:hover {
+    color: black;
+}
+* {
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */

@@ -1,6 +1,8 @@
 import React from 'react';
 import Note from './note.js';
 import './displaynote.css';
+import { Greeting } from './greeting';
+import { NavBar } from './navbar';
 
 class DisplayNote extends React.Component {
   constructor(props) {
@@ -29,6 +31,7 @@ class DisplayNote extends React.Component {
     const { toDoList, notes, title } = this.state;
     return (
       <div>
+        <NavBar />
         <main>
           <h1>To Do List:</h1>
           <div className="notes">
@@ -63,6 +66,8 @@ class DisplayNote extends React.Component {
           handleChange={this.handleChange}
           handleSubmit={this.handleSubmit}
         />
+        <hr></hr>
+        <Greeting />
       </div>
     );
   }
